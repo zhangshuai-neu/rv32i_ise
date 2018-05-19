@@ -1,0 +1,15 @@
+picoRV32配置: 
+	安装：
+		github 编译安装最新Icarus Verilog
+		 
+		下载risc工具链：
+		make download-tools
+		
+		安装risc工具链的依赖：
+		sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev
+		
+		编译risc工具链：
+		make build-tools
+		
+		测试：
+		make test
